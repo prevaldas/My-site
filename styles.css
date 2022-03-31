@@ -1,0 +1,211 @@
+body {
+  color: #4C4C6D;
+  margin: 0;
+  text-align: center;
+  font-family: 'Noto Serif TC', serif;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+h1 {
+  color: #FFE194;
+  font-size: 8rem;
+  margin: 50px auto 0;
+  font-family: 'Dancing Script', cursive;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
+h2 {
+  font-weight: normal;
+  color: #FFE194;
+  font-size: 2.5rem;
+  font-family: 'Actor', sans-serif;
+  padding-top: 80px;
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+h3 {
+  color: #11999E;
+  font-family: 'Actor', sans-serif;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #4C4C6D;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 10%;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.profilePic {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  width: 80%;
+}
+.one-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+.profile {
+  text-align: center;
+  margin-left: 100px;
+}
+.profile-title {
+  padding-bottom: 55px;
+}
+.profileParagraph {
+  padding: 30px;
+}
+.three-container {
+  padding-top: 50px;
+}
+.example-img {
+  width: 70%;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  filter: grayscale(35%);
+}
+.example-img:hover {
+  transform: translateY(7px);
+  filter: grayscale(0%);
+  transition: all .4 ease-in-out;
+}
+.project-link {
+  color: #11999E;
+  font-family: 'Actor', sans-serif;
+  text-decoration: none;
+}
+.examples {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-areas:
+  'header'
+  'left left left right right right';
+}
+.title { grid-area: menu; }
+.example { grid-area: left; }
+.examlpe2 { grid-area: right; }
+
+@media only screen and (max-width: 600px) {
+  .examples {
+    display: inline;
+  }
+}
+.two-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+@media only screen and (max-width: 1000px) {
+  .two-container {
+    display: inline;
+  }
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills-img1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.skills-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.h3-skill {
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  padding: 5%;
+}
+progress {
+  border-radius: 7px;
+  width: 70%;
+  height: 22px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+progress::-webkit-progress-bar {
+  background-color: gray;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: #FFE194;
+  border-radius: 7px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.prog-title {
+  padding-top: 3%;
+}
+#name {
+  color: #4C4C6D;
+  padding: 5px;
+  font-size: 0.8rem;
+  font-family: 'Quicksand', sans-serif;
+}
+.footer-link {
+  padding: 20px;
+  color: #11999E;
+  font-family: 'Actor', sans-serif;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #EAF6F6;
+}
+.BUTTON_BER {
+  background: #d96834;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.BUTTON_BER:hover {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  background: #4C4C6D;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  transform: translateY(3px);
+}
+.five-container {
+  background-color: #FFE194;
+  padding: 15px;
+  margin-top: 20%;
+}
