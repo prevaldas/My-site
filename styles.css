@@ -73,6 +73,11 @@ p {
   text-align: center;
   margin-left: 100px;
 }
+@media only screen and (max-width: 1000px) {
+  .profile {
+    margin-left: 0;
+  }
+}
 .profile-title {
   padding-bottom: 55px;
 }
