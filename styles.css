@@ -272,6 +272,10 @@ progress::-webkit-progress-value {
   border-color: #FFE194;
   border-width: 3px;
 }
+#menu-btn:hover {
+  background-color: #FFE194;
+  transform: translateY(3px);
+}
 
 .dropdown-menu {
   margin: 7% 20% 15% 20%;
@@ -300,5 +304,5 @@ progress::-webkit-progress-value {
 }
 
 .links-hidden:hover, .links:hover {
-  background-color: gray;
+  background-color: #4C4C6D;
 }
