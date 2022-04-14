@@ -100,13 +100,12 @@
       </div>
     </div>
           <div class="dropdown-menu">
-          <button class="menu-btn">More examples<i class="fa fa-caret-down"></i></button>
-          <div class="menu-content">
+          <button id="menu-btn">More examples<i class="fa fa-caret-down"></i></button>
+          <div id="menu-content">
           <a class="links-hidden" href="https://vandos-gelynas.netlify.app">A personal web page with a hoby showcase.</a>
           <a class="links-hidden" href="https://katinai.netlify.app">Web page introducing pets and their activities.</a>
         </div>
         </div>
-
       <hr>
     <div class="contact-me">
       <h2>Get in Touch</h2>
@@ -122,6 +121,12 @@
     <p id="name"></p>
   </div>
   <script type="text/javascript">
+
+  document.querySelector('#menu-btn').addEventListener('click', function() {
+  document.querySelector('#menu-content').style.height= 'auto';
+  this.style.display= 'none';
+});
+
     const currenDate = new Date();
     document.getElementById("name").innerHTML = (currenDate.getFullYear() + " © " + " Evaldas Pranckevicius");
   </script>

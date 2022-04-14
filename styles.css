@@ -263,7 +263,7 @@ progress::-webkit-progress-value {
   margin-top: 20%;
 }
 
-.menu-btn {
+#menu-btn {
   background: transparent;
   color: #4C4C6D;
   padding: 0.5% 5% 0.5% 5%;
@@ -274,23 +274,17 @@ progress::-webkit-progress-value {
 }
 
 .dropdown-menu {
-  margin-top: 4%;
-  margin-bottom: 8%;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin: 7% 20% 15% 20%;
   position: relative;
   display: inherit;
   font-family: 'Actor', sans-serif;
 }
 
-.menu-content {
-  display: none;
-  position: inherit;
+#menu-content {
+  overflow: hidden;
+  height: 0;
+  line-height: 1.2em;
   background-color: #d96834;
-  min-width: 160px;
-  z-index: 1;
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 .links, .links-hidden {
@@ -305,14 +299,6 @@ progress::-webkit-progress-value {
   display: block;
 }
 
-.links {
-  display: inline-block;
-}
-
 .links-hidden:hover, .links:hover {
   background-color: gray;
-}
-
-.dropdown-menu:hover .menu-content {
-  display: block;
 }
